@@ -1,0 +1,9 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+tech_symfony_equipement_list:
+    path: /equipments
+    controller: TechSymfony\Controller\EquipementController::list
+
